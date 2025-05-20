@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es-la">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3afd4a807a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html"> <img src="./Amok Amarillo/logo.png" alt="Amok Amarillo logo" width="20%"></a>  
+        </div>
+
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/mvgayago" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <select name="opciones" id="opciones">Motivo de contacto:
+                    <option value="consulta">Consulta</option>
+                    <option value="reclamo">Reclamo</option>
+                    <option value="ayuda">Solicitud de ayuda</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required rows="3" cols="20"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h1>
+            Amok Amarillo
+        </h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/amokamarillo/?hl=es-la" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Amok Amarillo">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>                      
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com/catalog/5491135576980/?app_absent=0" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Amok Amarillo">
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </a> 
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

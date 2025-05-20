@@ -1,0 +1,1 @@
+Este sitio web está pensado para ser el e-commerce de una tienda de indumentaria femenina.

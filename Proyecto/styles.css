@@ -1,0 +1,164 @@
+html {
+    background-image:url(./Amok\ Amarillo/fondo.webp); 
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo a {
+    display: flex;          
+    justify-content: center;
+    align-items: center;   
+}
+
+#menu ul {
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 70vw;
+    justify-self: center;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    background-color:  rgba(228, 220, 109, 0.897) ;
+}
+
+a.boton {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  a.boton:hover {
+    background-color: #faedaf;
+  }
+
+#tienda {
+    position: relative;
+    justify-self: center;
+    background-color: rgba(255, 253, 221, 0.671);
+    width: 70vw;
+    padding: 10px;
+}
+
+.productos-container {
+    display: flex;
+    position: relative;
+    width: 50vw;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    flex: 1 1 300px; 
+    max-width: 400px;
+    margin: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: border-box;
+    justify-content: space-evenly
+    
+}
+
+.producto {
+    border: 4px groove rgba(165, 131, 93, 0.527);
+}
+
+
+.producto img {
+    max-width: 100%;
+    height: auto;        
+    flex-shrink: 0;   
+    border: 1px, ;  
+}
+
+#bienvenidas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#coleccion {
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d8be48;
+}
+
+footer h1 {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los íconos */
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 2rem;
+}
+
+#info {
+    display: flex;
+    background-color: rgba(255, 253, 221, 0.671);
+    width: 70vw;
+    justify-self: center;
+    padding: 30px;
+    justify-content: right;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#contacto {
+    display: flex;
+    background-color: rgba(255, 253, 221, 0.671);
+    width: 70vw;
+    justify-self: center;
+    padding: 30px;
+    justify-content: right;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 0 auto; 
+    gap: 15px;
+    padding: 20px;
+    border-radius: 20px;
+}
